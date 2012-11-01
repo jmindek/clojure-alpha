@@ -1,0 +1,4 @@
+.settings/
+bin/
+clojure-src.jar
+clojure.jar
