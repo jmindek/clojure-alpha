@@ -2,11 +2,10 @@
 
 ;write a recusive function to add numbers
 (defn add-nums-recursively [x & more]
-  (loop [y (first more) z (rest more)]
-    (println "Z is " z)
+  (let [y (first more) z (rest more)]
   (if (zero? (count z))
     (+ x y)
-    (recur (+ x y) (z))
+    (recur (+ x y) z)
   )
 )
 )
