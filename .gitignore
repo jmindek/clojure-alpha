@@ -2,3 +2,6 @@
 bin/
 clojure-src.jar
 clojure.jar
+*sublime*
+target/
+.lein*
