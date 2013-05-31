@@ -1,4 +1,5 @@
 (defproject clojure-alpha "0.0.9-SNAPSHOT"
-  :description "Functions I write while learning FP and Clojure"
+  :description "String calculator kata"
   :dependencies [[org.clojure/clojure "1.5.0"]
-  					[icarus "0.1a"]])
+  				 [midje "1.5.1"]]
+	:main string-calc.core)
