@@ -8,7 +8,10 @@
 (def multi-num-str "1,1,1,1,1")
 (def two-num-w-newline-str "3\n2")
 (describe "Add function"
-
+	;(before (println "Running spec for the add function."))
+	;(after (println "Finished spec for the add function."))
+	(before-all (println "Running specs for the add function."))
+	(after-all (println "Finished specs for the add function."))
 	(it "returns 0 for the empty string"
   		(should= 0 (add empty-str)))
 
