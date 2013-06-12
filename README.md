@@ -1,4 +1,4 @@
-Recursion
+(learn-clojure (why? "it is really fun, powerful, and fun"))
 =========
 
 Personal projects to help me understand Clojure, my current favorite language.
